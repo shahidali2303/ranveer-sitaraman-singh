@@ -97,16 +97,20 @@
                       <a href="index.html">Home</a>
                     </li>
                     <li class="">
-                      <a href="#">Explore</a>
+                      <a href="#">About</a>
                     </li>
                     <li class="">
-                      <a href="#">Video</a>
+                      <a href="#">Work</a>
                     </li>
-                    <li class="">
+                    <li class="has-dropdown">
                       <a href="#">Gallery</a>
+                      <ul class="submenu">
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Videos</a></li>
+                      </ul>
                     </li>
                     <li>
-                      <a href="#">Press View</a>
+                      <a href="#">Achievement</a>
                     </li>
                   </ul>
                 </nav>
@@ -271,16 +275,24 @@
       </section>
       <!-- hero area end -->
       <!-- about area start -->
-      <section id="about-area" class="about-area pt-45 pb-120">
+      <section id="about-area" class="about-area pb-120">
         <div class="container position-relative">
           <div class="bg-color">
             <div class="tp-video-about-box">
               <div class="row">
                 <div class="col-xl-9 col-lg-9 col-md-9">
-                  <div class="tp-about__content mb-30 wow fadeInLeft">
-                    <span class="section-sub-title has-before"
-                      >what we are</span
-                    >
+                  <div
+                    class="tp-about__content mb-30 wow fadeInLeft"
+                    data-wow-duration="1s"
+                    data-wow-delay=".5s"
+                    style="
+                      visibility: visible;
+                      animation-duration: 1s;
+                      animation-delay: 0.5s;
+                      animation-name: fadeInLeft;
+                    "
+                  >
+                    <span class="section-sub-title has-before">what we do</span>
                     <h3 class="tp-about__section-title">
                       Whatever it is that you care about, there will be a
                       charity working on it. Charities help in lots of different
@@ -298,17 +310,6 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="col-xl-3 col-lg-3 col-md-3">
-                         <div
-                           class="tp-about__play-btn mb-30 wow fadeInRight"
-                           data-wow-duration="1s"
-                           data-wow-delay=".5s"
-                         >
-                           <a class="popup-video" href="#"
-                             ><i class="fa-solid fa-heart"></i
-                           ></a>
-                         </div>
-                       </div> -->
               </div>
             </div>
           </div>
@@ -316,19 +317,20 @@
             class="tp-video-img wow fadeInRight"
             data-wow-duration="1s"
             data-wow-delay=".5s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.5s;
+              animation-name: fadeInRight;
+            "
           >
             <div class="about-img">
               <div class="back-border">
-                <iframe
-                  class="popup-video"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/GIoAb2viYDc"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
+                <img
+                  src="assets/img/new/52.jpg"
+                  style="border-radius: 10px"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -460,14 +462,13 @@
             <div class="causes-item">
               <div class="tpcard__wrapper tpcard__wrappr-2 white-bg">
                 <div class="tpcard__img grayscale">
-                  <a href="#"><img src="assets/img/new/30.png" alt="" /></a>
+                  <a href="#"><img src="assets/img/new/60.jpg" alt="" /></a>
                 </div>
                 <div class="tpcard__content">
                   <h4 class="tpcard__title">
                     <p>
-                      organised Free Health Checkup Camp for Tilak Nagar Police
-                      Station Staff and their Families in Delhi Police Week at
-                      Tilak Nagar Police Station
+                      Lorem Ipsum is simply dummy text of the the industry's
+                      standard dummy text ever since the.
                     </p>
                   </h4>
                 </div>
@@ -476,25 +477,13 @@
             <div class="causes-item">
               <div class="tpcard__wrapper tpcard__wrappr-2 white-bg">
                 <div class="tpcard__img grayscale">
-                  <a href="#"><img src="assets/img/new/31.png" alt="" /></a>
-                </div>
-                <div class="tpcard__content">
-                  <h4 class="tpcard__title">
-                    <p>distributed Eatables to Needy Children in Chandigarh</p>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div class="causes-item">
-              <div class="tpcard__wrapper tpcard__wrappr-2 white-bg">
-                <div class="tpcard__img grayscale">
-                  <a href="#"><img src="assets/img/new/32.png" alt="" /></a>
+                  <a href="#"><img src="assets/img/new/61.jpg" alt="" /></a>
                 </div>
                 <div class="tpcard__content">
                   <h4 class="tpcard__title">
                     <p>
-                      has given Two Wheel Chairs, Dry Ration, Daiper, Medicines
-                      etc to Needy Family
+                      Lorem Ipsum is simply dummy text of the the industry's
+                      standard dummy text ever since the.
                     </p>
                   </h4>
                 </div>
@@ -503,11 +492,14 @@
             <div class="causes-item">
               <div class="tpcard__wrapper tpcard__wrappr-2 white-bg">
                 <div class="tpcard__img grayscale">
-                  <a href="#"><img src="assets/img/new/33.png" alt="" /></a>
+                  <a href="#"><img src="assets/img/new/56.jpg" alt="" /></a>
                 </div>
                 <div class="tpcard__content">
                   <h4 class="tpcard__title">
-                    <p>On Daily Basis giving feed to street dogs</p>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the the industry's
+                      standard dummy text ever since the.
+                    </p>
                   </h4>
                 </div>
               </div>
@@ -515,11 +507,29 @@
             <div class="causes-item">
               <div class="tpcard__wrapper tpcard__wrappr-2 white-bg">
                 <div class="tpcard__img grayscale">
-                  <a href="#"><img src="assets/img/new/34.png" alt="" /></a>
+                  <a href="#"><img src="assets/img/new/55.jpg" alt="" /></a>
                 </div>
                 <div class="tpcard__content">
                   <h4 class="tpcard__title">
-                    <p>distributed Food to Corona Patients in Chandigarh</p>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the the industry's
+                      standard dummy text ever since the.
+                    </p>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="causes-item">
+              <div class="tpcard__wrapper tpcard__wrappr-2 white-bg">
+                <div class="tpcard__img grayscale">
+                  <a href="#"><img src="assets/img/new/54.jpg" alt="" /></a>
+                </div>
+                <div class="tpcard__content">
+                  <h4 class="tpcard__title">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the the industry's
+                      standard dummy text ever since the.
+                    </p>
                   </h4>
                 </div>
               </div>
@@ -698,19 +708,19 @@
           <div class="row tp-gx-15">
             <div class="col-lg-4">
               <div class="portfolio-details-thumb">
-                <img src="assets/img/new/13.jpg" alt="" />
+                <img src="assets/img/new/53.jpg" alt="" />
               </div>
             </div>
             <div class="col-lg-4">
               <div class="portfolio-details-thumb">
                 <img
-                  src="assets/img/new/12.jpg"
+                  src="assets/img/new/54.jpg"
                   alt=""
                   width="350"
                   height="300"
                 />
                 <img
-                  src="assets/img/new/8.jpg"
+                  src="assets/img/new/55.jpg"
                   alt=""
                   width="350"
                   height="300"
@@ -720,13 +730,13 @@
             <div class="col-lg-4">
               <div class="portfolio-details-thumb">
                 <img
-                  src="assets/img/new/17.jpg"
+                  src="assets/img/new/56.jpg"
                   alt=""
                   width="350"
                   height="300"
                 />
                 <img
-                  src="assets/img/new/20.jpg"
+                  src="assets/img/new/62.jpg"
                   alt=""
                   width="350"
                   height="300"
