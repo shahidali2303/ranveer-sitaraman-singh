@@ -49,7 +49,7 @@
   --tp-common-white: #ffffff;
   --tp-common-black-solid: #000;
   --tp-common-black: #121212;
-  --tp-heading-primary: #666666;
+  /* --tp-heading-primary: #666666; */
   --tp-heading-1: #121212;
   --tp-grey-1: #f1f1f1;
   --tp-grey-2: #f5f6f8;
@@ -2338,7 +2338,7 @@ input[type="color"] {
 /*----------------------------------------*/
 @media (max-width: 575px) {
   .hero-area {
-    padding-top: 60px;
+    /* padding-top: 60px; */
   }
 }
 
@@ -8743,3 +8743,11 @@ input[type="color"] {
 }
 
 /*# sourceMappingURL=main.css.map */
+.header-logo {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .header-logo {
+    width: 80%;
+  }
+}
