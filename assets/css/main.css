@@ -1786,7 +1786,7 @@ input[type="color"] {
 }
 .main-menu ul li.has-dropdown > a::after {
   padding-left: 5px;
-  content: "+";
+  content: "";
   font-family: var(--tp-ff-fontawesome);
   transition: 0.3s ease;
 }
@@ -6675,7 +6675,7 @@ input[type="color"] {
 }
 
 .our-mission-area {
-  background-color: #f6f6f4;
+  /* background-color: #f6f6f4; */
   margin-bottom: 45px;
 }
 @media (max-width: 575px) {
