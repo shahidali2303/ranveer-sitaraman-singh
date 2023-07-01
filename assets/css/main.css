@@ -8751,3 +8751,22 @@ input[type="color"] {
     width: 80%;
   }
 }
+@media (min-width: 769px) {
+  .text-center-class {
+    text-align: center;
+  }
+}
+.footer-logo {
+  width: 100%;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .footer-logo {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .footer-logo {
+    width: 70%;
+  }
+}
